@@ -77,6 +77,26 @@ HTML = """
         <div class="report">{{ report }}</div>
     </div>
     {% endif %}
+
+<hr style="margin-top:40px">
+<div style="background:#111;padding:30px;border-radius:10px;color:white;margin-top:30px">
+<h2>Want the full niche intelligence report?</h2>
+<p>This preview is only a short market scan.</p>
+
+<ul>
+<li>Full competitor analysis</li>
+<li>Lead generation strategies</li>
+<li>Pricing opportunities</li>
+<li>SEO keyword map</li>
+</ul>
+
+<a href="mailto:nicodemofemia92@gmail.com?subject=NicheBrief%20Request&body=Hi,%20I%20want%20a%20custom%20niche%20brief"
+style="display:inline-block;margin-top:15px;padding:14px 22px;background:#4f46e5;color:white;text-decoration:none;border-radius:6px;font-weight:bold">
+Get Full Brief – €29
+</a>
+
+</div>
+
 </body>
 </html>
 """
