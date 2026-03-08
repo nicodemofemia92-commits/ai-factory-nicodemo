@@ -23,6 +23,7 @@ acq_path, acq_text = latest("client_acquisition", "client_acquisition_*.txt")
 acf_path, acf_text = latest("auto_client_finder", "auto_client_finder_*.txt")
 aop_path, aop_text = latest("auto_outreach", "auto_outreach_*.txt")
 dsr_path, dsr_text = latest("daily_sales", "daily_sales_*.txt")
+harv_path, harv_text = latest("harvester", "harvester_*.txt")
 
 today_niche = "Marketing Agencies"
 if daily_text:
@@ -220,6 +221,15 @@ padding-left:18px;
 <div class="card">
 <a class="button" href="file://{aop_path}" target="_blank">Open File</a>
 <pre>{aop_text or "No auto outreach output yet"}</pre>
+</div>
+</div>
+
+
+<div class="section">
+<h2>Harvester Queue</h2>
+<div class="card">
+<a class="button" href="file://{harv_path}" target="_blank">Open File</a>
+<pre>{harv_text or "No harvester queue yet"}</pre>
 </div>
 </div>
 
