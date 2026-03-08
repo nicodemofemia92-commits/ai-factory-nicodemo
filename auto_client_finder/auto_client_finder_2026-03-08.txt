@@ -1,0 +1,113 @@
+
+[DEMO AUTO CLIENT FINDER]
+
+TARGET BUSINESS TYPES
+1. Marketing agencies
+2. SEO consultants
+3. Growth consultants
+4. Branding studios
+5. Real estate agencies
+6. Web design agencies
+7. Local business consultants
+8. Startup advisors
+9. Lead generation agencies
+10. Business coaches
+11. Dentists
+12. Lawyers
+13. Ecommerce consultants
+14. SaaS founders
+15. Architects
+
+GOOGLE SEARCH QUERIES
+1. marketing agency Milan
+2. seo consultant Italy
+3. real estate agency Milan
+4. branding studio Milan
+5. web design agency Rome
+6. startup advisor Italy
+7. growth consultant London
+8. digital agency Italy
+9. business consultant Milan
+10. local lead generation agency
+11. dentist clinic Milan
+12. lawyer firm Milan
+13. architect studio Milan
+14. ecommerce consultant Italy
+15. founder LinkedIn Italy
+16. SaaS founder Italy
+17. branding agency Rome
+18. marketing consultant Milan
+19. real estate consultant Milan
+20. digital growth consultant
+
+LINKEDIN SEARCH QUERIES
+1. marketing agency owner
+2. seo consultant
+3. growth consultant
+4. startup founder
+5. freelance marketer
+6. real estate agency owner
+7. branding consultant
+8. digital agency founder
+9. web design agency owner
+10. business consultant
+11. lead generation agency
+12. ecommerce consultant
+13. startup advisor
+14. freelance seo specialist
+15. local marketing consultant
+
+PUBLIC CONTACT ENTRY POINTS
+1. Contact page
+2. Public business email
+3. LinkedIn company page
+4. Founder profile
+5. Demo booking page
+6. Contact form
+7. Instagram bio link
+8. X/Twitter bio
+9. Agency directory listing
+10. Google Maps profile
+
+PUBLIC DIRECTORIES / PLATFORMS
+1. LinkedIn
+2. Clutch
+3. Sortlist
+4. GoodFirms
+5. Agency Spotter
+6. Google Maps
+7. Yelp
+8. Product Hunt
+9. AngelList
+10. Crunchbase
+
+EXAMPLE COMPANY NAMES
+1. GrowthLab Agency
+2. Prime SEO Studio
+3. Digital Boost Agency
+4. BrandForge Studio
+5. Realty Milano
+6. Scale Marketing
+7. Local Lead Labs
+8. Startup Sprint Advisory
+9. WebNest Studio
+10. MarketPilot Agency
+
+OUTREACH MESSAGES
+1. Hey, I built a tool that generates a niche intelligence brief in seconds. Want me to generate one for your market?
+2. Quick question: how do you currently validate a niche before building an offer?
+3. I’m testing an AI market brief generator for agencies and consultants. Happy to send an example.
+4. Built something that gives competitor + positioning + monetization angles for any niche. Might be useful for your work.
+5. If you explore new markets often, this could save hours of manual research.
+
+CLIENT-FINDING WORKFLOW
+1. Pick one niche
+2. Use 3 search queries
+3. Collect 10 company names
+4. Save website + contact page
+5. Send 3 outreach messages
+6. Offer €29 brief
+7. Upsell later
+
+(Gemini fallback)
+Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 53.326072465s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}

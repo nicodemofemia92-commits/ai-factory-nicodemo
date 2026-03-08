@@ -1,0 +1,58 @@
+
+[DEMO SALES QUEUE]
+
+TARGET PROSPECTS
+1. Small marketing agency owners
+2. Freelance SEO consultants
+3. Solo growth marketers
+4. Startup founders validating niches
+5. Boutique branding studios
+6. Real estate agency owners
+7. Web design freelancers
+8. Local business consultants
+9. Lead generation agencies
+10. Small B2B service firms
+
+SEARCH QUERIES
+1. marketing agency Milan
+2. seo consultant Milan
+3. startup founder LinkedIn Italy
+4. freelance marketer Italy
+5. real estate agency Milan
+6. web design agency Rome
+7. branding studio London
+8. local business consultant Italy
+9. agency owner LinkedIn
+10. clutch marketing agencies Italy
+
+FIRST OUTREACH
+1. Hey, I built a tool that generates a niche intelligence brief in seconds. Want me to create one for your market?
+2. Quick question: how do you currently validate a niche before building an offer?
+3. I’m testing an AI market brief generator for agencies and consultants. Happy to send an example.
+4. Built something that gives competitor + positioning + monetization angles for any niche. Might be useful for your work.
+5. If you explore new markets often, this could save hours of research.
+
+FOLLOW-UP
+1. Just bumping this in case market validation is still manual for you.
+2. Happy to send a sample brief if useful.
+3. I can generate one example for your market today.
+4. Curious whether this is more useful for your team or your clients.
+5. No rush — just thought it might save you research time.
+
+CTA VARIATIONS
+1. Want a custom niche brief for your market?
+2. I can generate a full version for €29.
+3. Try the live tool here: https://ai-factory-nicodemo.onrender.com
+4. Want a sample for your niche?
+5. Stop guessing your market.
+
+ACTION QUEUE
+1. Pick 1 niche
+2. Search 10 prospects
+3. Contact 3 today
+4. Publish 1 post
+5. Generate 1 sample brief
+6. Push the €29 offer
+
+(Gemini fallback)
+Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 83.167598ms.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}

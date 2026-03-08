@@ -1,0 +1,49 @@
+name: AI Factory 24-7
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  run-factory:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests google-genai flask gunicorn
+
+      - name: Run factory
+        run: |
+          python run_factory.py || true
+          python daily_pack.py || true
+          python client_hunter.py || true
+          python sales_queue.py || true
+          python auto_outreach_engine.py || true
+          python build_dashboard.py || true
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-factory-output
+          path: |
+            daily_packs/
+            client_hunter/
+            sales_queue/
+            auto_outreach/
+            dashboard.html
+            logs/
+          if-no-files-found: ignore
