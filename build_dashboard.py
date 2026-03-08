@@ -24,6 +24,7 @@ acf_path, acf_text = latest("auto_client_finder", "auto_client_finder_*.txt")
 aop_path, aop_text = latest("auto_outreach", "auto_outreach_*.txt")
 dsr_path, dsr_text = latest("daily_sales", "daily_sales_*.txt")
 harv_path, harv_text = latest("harvester", "harvester_*.txt")
+ins_path, ins_text = latest("insight_engine", "insights_*.txt")
 
 today_niche = "Marketing Agencies"
 if daily_text:
@@ -230,6 +231,15 @@ padding-left:18px;
 <div class="card">
 <a class="button" href="file://{harv_path}" target="_blank">Open File</a>
 <pre>{harv_text or "No harvester queue yet"}</pre>
+</div>
+</div>
+
+
+<div class="section">
+<h2>Insight Engine</h2>
+<div class="card">
+<a class="button" href="file://{ins_path}" target="_blank">Open File</a>
+<pre>{ins_text or "No insights yet"}</pre>
 </div>
 </div>
 

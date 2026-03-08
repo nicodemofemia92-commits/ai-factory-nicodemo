@@ -38,6 +38,7 @@ jobs:
           python lead_scraper.py || true
           python lead_reactor.py || true
           python harvester.py || true
+          python insight_engine.py || true
 
           python build_dashboard.py || true
 
