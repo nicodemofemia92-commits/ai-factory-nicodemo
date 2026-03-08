@@ -1,0 +1,6 @@
+*.pyc
+*.save
+.DS_Store
+__pycache__/
+deploy.zip
+logs/
