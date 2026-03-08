@@ -1,7 +1,8 @@
 from flask import Flask, request, render_template_string
+import os
 from google import genai
 
-GEMINI_API_KEY = "GEMINI_API_KEY_PLACEHOLDER"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 app = Flask(__name__)
