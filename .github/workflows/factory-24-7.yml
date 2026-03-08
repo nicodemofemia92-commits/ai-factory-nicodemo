@@ -33,6 +33,11 @@ jobs:
           python client_hunter.py || true
           python sales_queue.py || true
           python auto_outreach_engine.py || true
+
+          python traffic_engine.py || true
+          python lead_scraper.py || true
+          python lead_reactor.py || true
+
           python build_dashboard.py || true
 
       - name: Upload outputs
