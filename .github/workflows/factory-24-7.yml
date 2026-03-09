@@ -18,7 +18,7 @@ jobs:
       SMTP_PASS: ${{ secrets.SMTP_PASS }}
       FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
       IMAP_HOST: ${{ secrets.IMAP_HOST }}
-      SEND_BATCH_SIZE: "5"
+      SEND_BATCH_SIZE: "20"
     steps:
       - name: Checkout
         uses: actions/checkout@v4

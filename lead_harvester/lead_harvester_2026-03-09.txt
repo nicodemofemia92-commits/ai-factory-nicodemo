@@ -2,7 +2,7 @@ LEAD HARVESTER
 Date: 2026-03-09
 
 Queries used: 20
-Rows found: 24
+Rows found: 0
 
 CSV:
 /Users/nicodemofemia/ai_factory/lead_harvester/lead_harvester_2026-03-09.csv
