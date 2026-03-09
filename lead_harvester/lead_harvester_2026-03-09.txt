@@ -1,0 +1,14 @@
+LEAD HARVESTER
+Date: 2026-03-09
+
+Queries used: 20
+Rows found: 24
+
+CSV:
+/Users/nicodemofemia/ai_factory/lead_harvester/lead_harvester_2026-03-09.csv
+
+How to use:
+1. Open the CSV
+2. Keep only real companies
+3. Fill contact_page / linkedin
+4. Status -> ready / contacted / ignored

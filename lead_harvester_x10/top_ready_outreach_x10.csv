@@ -1,42 +1,4 @@
-
-<html>
-<head>
-<title>AI Factory Dashboard</title>
-<style>
-body{font-family:Arial;background:#0f172a;color:white;padding:40px}
-.section{margin-bottom:40px}
-.card{background:#1e293b;padding:20px;border-radius:10px}
-pre{white-space:pre-wrap;font-size:12px}
-</style>
-</head>
-
-<body>
-
-<h1>AI Factory Control Room</h1>
-
-<div class="section">
-<h2>Global Lead Queue</h2>
-<div class="card">
-<pre>query,company,domain,website,email,status,score
-digital agency Rome,Digital Marketing Agency Rome | ZDM Agency,zdmagency.com,https://zdmagency.com,info@zdmagency.com,ready,19
-marketing agency Milan,Zebrah - Homepage,zebrah.it,https://zebrah.it,info@zebrah.it,ready,17
-marketing agency Milan,Milan Communication and Marketing Agency With 40 Years of Experience,agenziabrand.it,https://agenziabrand.it,info@agenziabrand.it,ready,17
-marketing agency Milan,Award-Winning Creative Advertising Agency in Milan - ORBIS,orbispro.it,https://orbispro.it,info@orbispro.it,ready,17
-digital agency Rome,Digital Experience Agency | Roma Milano Bolzano,ydeastudio.com,https://ydeastudio.com,business@ydeastudio.com,ready,17
-digital agency Rome,Web Agency Roma | Eccolo Marketing | Digital Agency &amp; Social Media,eccolomarketing.it,https://eccolomarketing.it,info@eccolomarketing.it,ready,17
-digital agency Rome,Digital Agency in Rome | Web &amp; App Development | OctaVertex Media,octavertexmedia.com,https://octavertexmedia.com,info@octavertexmedia.com,ready,16
-marketing agency London,Top 31 Digital Marketing Agencies in London (Reviewed in June 2025),inbeat.agency,https://inbeat.agency,hello@inbeat.agency,ready,15
-digital agency Rome,Best Digital Marketing Agencies in Rome 2025 | Semrush,semrush.com,https://semrush.com,mail@semrush.com,ready,14
-digital agency Rome,Best Digital Marketing Agencies in Rome (2025 Edition),digitalmarketingsupermarket.com,https://digitalmarketingsupermarket.com,9df977c6@emailtest.io,ready,14
-marketing agency London,Top 31 Мarketing Agencies in London as of 2025 - inBeat,inbeat.co,https://inbeat.co,inbeat-logo@3x.png,ready,13
-</pre>
-</div>
-</div>
-
-<div class="section">
-<h2>Global Outreach Queue</h2>
-<div class="card">
-<pre>company,email,language,subject,message,status,score
+company,email,language,subject,message,status,score
 Digital Marketing Agency Rome | ZDM Agency,info@zdmagency.com,it,Brief di mercato per Digital Marketing Agency Rome | ZDM Agency,"Ciao,
 
 sto testando uno strumento AI che genera brief di mercato strutturati per aziende come Digital Marketing Agency Rome | ZDM Agency.
@@ -149,9 +111,45 @@ Se vuoi ti mando un esempio gratuito sul tuo mercato.
 Un saluto,
 Nicodemo
 ",ready,15
-Best Digital Marketing Agencies in Rome 2025 | Semrush,mail@semrush.com,it,Brief di mercato per Best Digital Marketing Agencies in Rome 2025 | Semrus</pre>
-</div>
-</div>
+Best Digital Marketing Agencies in Rome 2025 | Semrush,mail@semrush.com,it,Brief di mercato per Best Digital Marketing Agencies in Rome 2025 | Semrush,"Ciao,
 
-</body>
-</html>
+sto testando uno strumento AI che genera brief di mercato strutturati per aziende come Best Digital Marketing Agencies in Rome 2025 | Semrush.
+
+Il brief evidenzia:
+- competitor
+- positioning
+- opportunità di monetizzazione
+
+Se vuoi ti mando un esempio gratuito sul tuo mercato.
+
+Un saluto,
+Nicodemo
+",ready,14
+Best Digital Marketing Agencies in Rome (2025 Edition),9df977c6@emailtest.io,it,Brief di mercato per Best Digital Marketing Agencies in Rome (2025 Edition),"Ciao,
+
+sto testando uno strumento AI che genera brief di mercato strutturati per aziende come Best Digital Marketing Agencies in Rome (2025 Edition).
+
+Il brief evidenzia:
+- competitor
+- positioning
+- opportunità di monetizzazione
+
+Se vuoi ti mando un esempio gratuito sul tuo mercato.
+
+Un saluto,
+Nicodemo
+",ready,14
+Top 31 Мarketing Agencies in London as of 2025 - inBeat,inbeat-logo@3x.png,it,Brief di mercato per Top 31 Мarketing Agencies in London as of 2025 - inBeat,"Ciao,
+
+sto testando uno strumento AI che genera brief di mercato strutturati per aziende come Top 31 Мarketing Agencies in London as of 2025 - inBeat.
+
+Il brief evidenzia:
+- competitor
+- positioning
+- opportunità di monetizzazione
+
+Se vuoi ti mando un esempio gratuito sul tuo mercato.
+
+Un saluto,
+Nicodemo
+",ready,13
